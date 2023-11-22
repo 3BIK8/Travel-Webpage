@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive Travel webpage</title>
+
+    <!-- *Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- *Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- *CSS link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">travel</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home" class="home-active">home</a></li>
+        <li><a href="#places">places</a></li>
+        <li><a href="#videos">videos</a></li>
+        <li><a href="#about">about</a></li>
+      </ul>
+    </header>
+    <!-- Home Section -->
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide container">
+          <img src="img/home1.jpg" alt="" />
+          <div class="home-text">
+            <span>discover now</span>
+            <h1>explore the <br />beautiful beach <br />of maldives</h1>
+            <a href="#" class="btn">explore</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide container">
+          <img src="img/home2.jpg" alt="" />
+          <div class="home-text">
+            <span>discover now</span>
+            <h1>explore the <br />beautiful beach <br />of bali</h1>
+            <a href="#" class="btn">explore</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide container">
+          <img src="img/home3.jpg" alt="" />
+          <div class="home-text">
+            <span>discover now</span>
+            <h1>explore the <br />beautiful beach <br />of hawaii</h1>
+            <a href="#" class="btn">explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Places -->
+    <section class="places" id="places">
+      <div class="heading">
+        <h1>
+          find the most <br />
+          attractive places
+        </h1>
+      </div>
+      <div class="places-container">
+        <div class="box">
+          <div class="place-img">
+            <img src="img/places1.jpg" alt="" />
+          </div>
+          <div class="place-text">
+            <h2>hawaii</h2>
+          </div>
+          <i class="bx bx-right-arrow-alt place-icon"></i>
+        </div>
+
+        <div class="box">
+          <div class="place-img">
+            <img src="img/places2.jpg" alt="" />
+          </div>
+          <div class="place-text">
+            <h2>maldives</h2>
+          </div>
+          <i class="bx bx-right-arrow-alt place-icon"></i>
+        </div>
+
+        <div class="box">
+          <div class="place-img">
+            <img src="img/places3.jpg" alt="" />
+          </div>
+          <div class="place-text">
+            <h2>bali</h2>
+          </div>
+          <i class="bx bx-right-arrow-alt place-icon"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="videos" id="videos">
+      <div class="heading">
+        <h1>
+          watch the most <br />
+          attractive places
+        </h1>
+      </div>
+      <div class="video-container">
+        <video src="img/video.mp4" muted autoplay loop></video>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-text">
+        <h1>we are largest trip <br />organizer here</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing 
+          elit. <br />Voluptatum, corporis sapiente? Labore, ipsum laudantium!
+        </p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+      <div class="about-img"><img src="img/about.jpg" alt="" /></div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="footer-box">
+        <h2>travel</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quam
+          officia eligendi ipsum suscipit fugit.
+        </p>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-box">
+        <h3>services</h3>
+        <li><a href="#">products</a></li>
+        <li><a href="#">help & support</a></li>
+        <li><a href="#">pricing</a></li>
+        <li><a href="#">FAQ</a></li>
+      </div>
+
+      <div class="footer-box">
+        <h3>offices</h3>
+        <li><a href="#">pakistan</a></li>
+        <li><a href="#">japan</a></li>
+        <li><a href="#">united states</a></li>
+        <li><a href="#">italy</a></li>
+      </div>
+
+      <div class="footer-box">
+        <h3>contact us</h3>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">our team</a></li>
+        <li><a href="#">our blog</a></li>
+        <li><a href="#">customers</a></li>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169; 3BIK8 | all rights reserved</p>
+    </div>
+
+    <!-- !Link to Swiper JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- !link to custom JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
